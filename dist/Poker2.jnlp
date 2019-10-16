@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Poker2.jnlp">
+  <information>
+    <title>Poker2</title>
+    <vendor>T-Money</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Poker2.jar" size="5219" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="poker2.Poker2"  name="Poker2" />
+  <update check="always"/>
+</jnlp>
